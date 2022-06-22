@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TEST.FTest">
+        <methods>
+          <include name="lgwtcred_lgt_lo_sl_TK"/>
+          <include name="lgwtcred_lgt_mo_slm_buy"/>
+          <include name="lgwtcred_lgt_mo_sl_sell"/>
+          <include name="signup_withmob"/>
+          <include name="frgt_usrid"/>
+          <include name="lgwtcred_lgt_chart"/>
+          <include name="lgwtcred_lgt_lo_sl_sell"/>
+          <include name="lgwtcred_lgt_lo_sl_buy"/>
+          <include name="frgt_wo_usrid"/>
+          <include name="positions"/>
+          <include name="dashboard"/>
+          <include name="lgwtcred_lgt_lo_sl_cncl"/>
+          <include name="holdings"/>
+          <include name="testa"/>
+          <include name="signup_createnri_acc"/>
+          <include name="applications"/>
+          <include name="funds"/>
+          <include name="orders"/>
+        </methods>
+      </class> <!-- TEST.FTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
