@@ -249,6 +249,10 @@ public class FTest {
 		frgt.clickreset();
 		
 	}
+	@Test 
+	public void testa1() {
+		System.out.println("Hello");
+	}
 	@Test
 	public void signup_withmob() {
 		ZLogin sign = new ZLogin(driver);
@@ -256,13 +260,7 @@ public class FTest {
 		ZSignUp sgnup =new ZSignUp(driver);
 		sgnup.entermob("9078785595", driver);
 	}
-	@Test
-	public void signup_createnri_acc() {
-		ZLogin sign = new ZLogin(driver);
-		sign.sign();	
-		ZSignUp sgnup =new ZSignUp(driver);
-		sgnup.accnir(driver);
-	}
+	
 	
 	@Test(priority=2)
 	public void orders() throws EncryptedDocumentException, IOException {
