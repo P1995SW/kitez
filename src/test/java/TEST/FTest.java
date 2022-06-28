@@ -47,10 +47,7 @@ public class FTest {
 	pn.clkcont();
 
 	} 
-	@Test 
-	public void abcd() {
-		System.out.println("Hello abcd");
-	}
+
 	@Test(priority=-1)
 	public void lgwtcred_lgt_lo_sl_buy() throws EncryptedDocumentException, IOException, InterruptedException {
 	
