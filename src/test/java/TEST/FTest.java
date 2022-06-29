@@ -47,6 +47,10 @@ public class FTest {
 	pn.clkcont();
 
 	} 
+	@Test 
+	public void demo() {
+		System.out.println("I am test Demo");
+	}
 
 	@Test(priority=-1)
 	public void lgwtcred_lgt_lo_sl_buy() throws EncryptedDocumentException, IOException, InterruptedException {
